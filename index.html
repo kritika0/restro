@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;500&family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
+    <script src="index.js"></script>
+    <title>Restaurant</title>
+</head>
+<body>
+    <!-- header -->
+    <header>
+        <a href="#" class="logo"> 
+            <img src="images/logo-img.png">
+        </a>
+        <div id="menu-bar" class="fas fa-hamburger"></div>
+        <nav class="navbar">
+            <ul>
+                <li>
+                    <a href="#home" class="active">Home</a>
+                </li>
+                <li>
+                    <a href="#about">About</a>
+                </li>
+                <li>
+                    <a href="#menu">Menu</a>
+                </li>
+                <li>
+                    <a href="#popular">Popular</a>
+                </li>
+                <li>
+                    <a href="#gallery">Gallery</a>
+                </li>
+                <li class="cart">
+                    
+                    <a href="cart.html"><i class="fas fa-shopping-cart"></i> <span></span> </a>
+                </li>
+                <li >
+                    <a href="login.php"><button class="btn-2">Log In
+
+                    </button></a>    
+                    
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!-- home -->
+    <section class="home" id ="home">
+        <div class="content">
+            <h3>We belive good food offer great smile</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus, recusandae autem. Eius id cum repudiandae accusamus aspernatur a molestiae laudantium, natus maiores animi repellendus quidem voluptatum magni officia blanditiis. Distinctio?</p>
+    <a href="signup.php"><button class="btn">Sign up
+</button></a>
+ </div>
+    <div class="image">
+        <img src="images/home-img.png" alt="">
+    </div>
+    </section>
+
+    <!-- about section -->
+    <section class="about" id ="about">
+        <div class="image"></div>
+        <div class="content">
+        <h3>About Us</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque atque sit ullam inventore impedit nobis facere mollitia soluta omnis accusantium tempora temporibus, aspernatur, illum nesciunt eos placeat? Eos, neque animi.</p>
+<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa animi saepe eaque exercitationem ut, impedit sint ratione quidem ullam quisquam tempora a ex possimus dignissimos, nihil, officiis fugit temporibus ipsum.</p>
+<a href ="#"><button class="btn">learn more</button></a>    
+</div>
+</div>
+    </section>
+    <!-- menu section -->
+    <section class="menu" id="menu">
+        <h1 class="heading">our delicious <span>menu</span></h1>
+    <ul class="list">
+        <li class="btn" data-src="images/menu1.jpg">Breakfast</li>
+        <li class="btn active" data-src="images/menu2.jpg">Lunch</li>
+        <li class="btn" data-src="images/menu3.jpg">Dinner</li>
+        <li class="btn" data-src="images/menu4.jpeg">Desert</li>
+    </ul>
+    <div class="row">
+        <div class="image">
+            <img src="images/menu2.jpg"  id="menu-img" alt="">
+        </div>
+        <div class="content">
+            <div class="info">
+                <h3><span>01.</span> we serve best food in the country</h3>
+           <p>loremipsum. dolor sit amet consectetur</p>
+            </div>
+            <div class="info">
+                <h3><span>02.</span> we serve best food in the country</h3>
+           <p>loremipsum. dolor sit amet consectetur</p>
+            </div>
+            <div class="info">
+                <h3><span>03.</span> we serve best food in the country</h3>
+           <p>loremipsum. dolor sit amet consectetur</p>
+            </div>
+            <div class="info">
+                <h3><span>04.</span> we serve best food in the country</h3>
+           <p>loremipsum. dolor sit amet consectetur</p>
+            </div>
+        </div>
+    </div>
+    </section>
+    <!-- Popular dishes  -->
+    <section class="popular" id="popular">
+        <h1 class="heading">most <span>popular</span> foods</h1>
+    <div class="box-container">
+        <div class="box">
+            <img src="images/burger.jpg" alt="">
+            <h3>Burger</h3>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+        </div>
+        <div class="price">30.00</div>
+        <a  class="add-cart" href="#"><button class="btn">add to cart</button></a>
+        </div>
+        <div class="box">
+            <img src="images/img5.jpg" alt="">
+            <h3>Special Bhel</h3>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+        </div>
+        <div class="price">30.00</div>
+        <a class="add-cart" href="#"><button class="btn">add to cart</button></a>
+        </div>
+        <div class="box">
+            <img src="images/vegroll.jpg" alt="">
+            <h3>veg roll</h3>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+        </div>
+        <div  class="price">30.00</div>
+        <a class="add-cart" href="#"><button class="btn">add to cart</button></a>
+        </div>
+        <div class="box">
+            <img src="images/sandwitch.jpg" alt="">
+            <h3>grilled sandwitch</h3>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+        </div>
+        <div class="price">30.00</div>
+        <a class="add-cart" href="#"><button class="btn">add to cart</button></a>
+        </div>
+        </div>
+    </section>
+    <!--  gallery section -->
+    <section class="gallery" id="gallery">
+        <h1 class="heading"> Our food <span>gallery</span></h1>
+<div class="box-container">
+    <div class="box">
+        <img src="images/img1.jpg">
+        <h3>Delicious food</h3>
+
+    </div>
+    <div class="box">
+        <img src="images/img2.jpg">
+        <h3>Delicious food</h3>
+
+    </div>
+    <div class="box">
+        <img src="images/img3.jpg">
+        <h3>Delicious food</h3>
+
+    </div>
+    <div class="box">
+        <img src="images/img4.jpg">
+        <h3>Delicious food</h3>
+
+    </div>
+    <div class="box">
+        <img src="images/bhel.jpg">
+        <h3>Delicious food</h3>
+
+    </div>
+    <div class="box">
+        <img src="images/img6.jpg">
+        <h3>Delicious food</h3>
+
+    </div>
+</div>
+    </section>
+    <!-- order section  -->
+    <section class="order" id="order">
+        <h1 class="heading">make an <span>order</span></h1>
+        <div class="row">
+            <div style="float: left;width: 100%;">
+                <form action="">
+                    <input type="text"  placeholder="your name" class="box">
+                    <input type="email"  placeholder="your email" class="box">
+                    <input type="password"  placeholder="your password" class="box">
+                    <input type="number"  placeholder="your number" class="box">
+                    <textarea name="" id="" cols="30" rows="10" class="box address" placeholder="your address"></textarea>
+                <input type="submit" value="order now" class="btn"> 
+            </form>
+            </div>
+            <div class="image" style="float: left; width: 40%;">
+                <img src="images/menu4.jpeg">
+            </div>
+            <br style="clear: both;"/>
+        </div>
+
+    </section>
+    <!-- footer -->
+    <div class="footer">
+        <div class="box-container">
+            <div class="box">
+            <h3>contact info</h3>
+            <p><i class="fas fa-map-marker-alt"> delhi</i></p>
+            <p><i class="fas fa-envelope"> abc@gmail.com</i></p>
+            <p><i class="fas fa-phone"> 921897827</i></p>
+            <p><i class="fas fa-phone"> 893278974</i></p>
+        </div>
+        <div class="box">
+            <h3>branch location</h3>
+            <a href="">india</a>
+            <a href="">USA</a>
+            <a href="">france</a>
+            <a href="">russia</a>
+        </div>
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="">home</a>
+            <a href="">about</a>
+            <a href="">menu</a>
+            <a href="">popular</a>
+            <a href="">gallery</a>
+            <a href="">order</a>
+        </div>
+        <div class="box">
+            
+            <h3>follow us</h3>
+            <a href="">facebook</a>
+            <a href="">twitter</a>
+            <a href="">instagram</a>
+        </div>
+        </div>
+        <h1 class="credit">create by <a href="#">kritika sharma</a> all rights reserved. </h1>
+    </div> 
+    <script src="main.js"></script> 
+    
+</body>
+</html>
